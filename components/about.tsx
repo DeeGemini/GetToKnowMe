@@ -5,8 +5,8 @@ const About = () => {
         <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
         <div className="max-w-2xl mx-auto">
           <p className="mb-4">
-            I'm Nontuthuzelo Ngwenya, a software engineer based in Durban, South Africa. I enjoy creating websites that
-            are both beautiful and responsive.
+            I'm Nontuthuzelo Ngwenya, a software engineer based in Durban, South Africa. I enjoy creating mobile and web applications,
+            and also games.
           </p>
           <p className="mb-4">
             I have a passion for solving real-life problems through code and bringing the solution(s) to life.
