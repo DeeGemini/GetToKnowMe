@@ -22,7 +22,11 @@
         "name": "next"
       }
     ],
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".", // Ensures paths are resolved relative to the project root
+    "paths": {
+      "@/*": ["./*"] // Maps @/ to the root directory
+    }
   },
   "include": [
     "next-env.d.ts",
