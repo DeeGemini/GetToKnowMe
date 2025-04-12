@@ -1,14 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Ensure Tailwind CSS is installed and configured correctly */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-@layer base {
-    body {
-      @apply bg-gradient-to-br from-pink-200 via-purple-200 to-cyan-200 min-h-screen;
-    }
-  }
-  
+body {
+  background: linear-gradient(to bottom right, #fbcfe8, #d8b4fe, #a5f3fc);
+  min-height: 100vh;
+}  
   .glass {
-    @apply bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px); /* Support for Safari */
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
   }
     
